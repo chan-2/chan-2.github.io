@@ -71,10 +71,9 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: chan-2
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
-mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: # your Google Scholar ID
@@ -126,15 +125,15 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 blog_name: al-folio # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
 blog_description: a simple whitespace theme for academics
-permalink: /blog/:year/:title/
+permalink: https://blog.naver.com/jinsongchan1
 
 # Pagination
 pagination:
   enabled: true
 
-related_blog_posts:
-  enabled: true
-  max_related: 5
+#related_blog_posts:
+#  enabled: true
+#  max_related: 5
 
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
@@ -172,10 +171,10 @@ collections:
     defaults:
       layout: post
     output: true
-    permalink: /news/:path/
+    #permalink: /news/:path/
   projects:
     output: true
-    permalink: /projects/:path/
+    #permalink: /projects/:path/
 
 announcements:
   enabled: true
@@ -274,8 +273,8 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: Jin
+  first_name: Songchan
 
   style: apa
   locale: en
